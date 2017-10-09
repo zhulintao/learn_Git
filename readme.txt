@@ -16,3 +16,10 @@
 我回来了
 
 感觉还不错，挺顺利的哦
+
+
+
+Chinese lead to error code , let't try English
+
+
+再来句中文
