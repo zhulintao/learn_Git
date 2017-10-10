@@ -16,9 +16,9 @@
 场景2：当你不但改乱了工作区某个文件的内容，还添加到了暂存区时，想丢弃修改，分两步，第一步用命令git reset HEAD file，就回到了场景1，第二步按场景1操作。
 
 12、git rm                             用于删除一个文件。如果一个文件已经被提交到版本库，那么你永远不用担心误删，但是要小心，你只能恢复文件到最新版本，你会丢失最近一次提交后你修改的内容。
-13、
-14、
-15、
+13、git remote add origin git@server-name:path/repo-name.git  关联一个远程库
+14、git push -u origin master          第一次推送master分支的所有内容，此后，每次本地提交后，只要有必要，就可以使用命令git push origin master推送最新修改
+15、git clone                          克隆远程仓库
 16、
 17、
 18、
