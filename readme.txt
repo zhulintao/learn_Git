@@ -19,8 +19,22 @@
 13、git remote add origin git@server-name:path/repo-name.git  关联一个远程库
 14、git push -u origin master          第一次推送master分支的所有内容，此后，每次本地提交后，只要有必要，就可以使用命令git push origin master推送最新修改
 15、git clone                          克隆远程仓库
-16、git checkout -b dev                表示创建并切换，相当于两条命令 ---> git branch dev + git checkout dev
-17、git branch                         列出所有分支，当前分支前面会标一个*号
-18、
-19、
-20、
+16、git branch                         列出所有分支，当前分支前面会标一个*号
+17、git merge                          用于合并指定分支到当前分支
+18、git branch -d <name>               删除分支
+19、git checkout -b dev                表示创建并切换，相当于两条命令 ---> git branch dev + git checkout dev
+20、git branch <name>                  创建分支
+21、git checkout <name>                切换分支
+22、
+23、
+24、
+25、
+26、
+27、
+28、
+29、
+30、
+
+
+
+
