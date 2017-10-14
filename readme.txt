@@ -25,8 +25,8 @@
 19、git checkout -b dev                表示创建并切换，相当于两条命令 ---> git branch dev + git checkout dev
 20、git branch <name>                  创建分支
 21、git checkout <name>                切换分支
-22、
-23、
+22、git log --graph                    可以看到分支合并图
+23、合并分支时，加上--no-ff参数就可以用普通模式合并，合并后的历史有分支，能看出来曾经做过合并，而fast forward合并就看不出来曾经做过合并。
 24、
 25、
 26、
