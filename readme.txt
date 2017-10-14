@@ -27,11 +27,11 @@
 21、git checkout <name>                切换分支
 22、git log --graph                    可以看到分支合并图
 23、合并分支时，加上--no-ff参数就可以用普通模式合并，合并后的历史有分支，能看出来曾经做过合并，而fast forward合并就看不出来曾经做过合并。
-24、
-25、
-26、
-27、
-28、
+24、git stash list                     查看暂存内容
+25、git stash apply                    恢复暂存内容
+26、git stash drop                     删除暂存内容
+27、git stash pop                      恢复同时删除暂存内容
+28、git stash apply stash@{0}          恢复指定暂存内容
 29、
 30、
 
